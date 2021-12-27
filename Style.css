@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:
+}
+.lecteur{
+    margin: 3px 10px;
+}
+
+.symbols{
+    display: flex;
+    justify-content: right;
+    padding: 5px 30px;
+}
+.menu a{
+    display: inline-block;
+    justify-content: center;
+    margin: 3px 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: right;
+}
+.top{
+    display: flex;
+   justify-content: right;
+}
+.com{
+    color: black;
+}
