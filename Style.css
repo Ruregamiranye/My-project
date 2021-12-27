@@ -4,29 +4,47 @@
     text-decoration: none;
     font-family:
 }
-.lecteur{
-    margin: 3px 10px;
+.vmp  .mdi-vlc .lecteur{
+    margin: 5px 20px;
+    
 }
 
 .symbols{
     display: flex;
     justify-content: right;
     padding: 5px 30px;
+    background-color: #f1f1f1;
 }
-.menu a{
+.menu, .menu-link{
     display: inline-block;
     justify-content: center;
     margin: 3px 20px;
+    color: black;
+    background-color: #f1f1f1;
+    
+}
+.boo{
+    overflow-y: scroll;
+}
+.play{
+
+}
+.play1, .mdi-view-headline{
+    background-color: rgb(165, 204, 248);
+}
+
+    .Lib{
+    color:black;
 }
 
 .search{
     display: flex;
     justify-content: right;
+    padding: 5px 20px;
+    
 }
 .top{
     display: flex;
    justify-content: right;
-}
-.com{
-    color: black;
+   padding: 5px 600px;
 }
