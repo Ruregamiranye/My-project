@@ -4,16 +4,32 @@
     text-decoration: none;
     font-family:
 }
-.vmp  .mdi-vlc .lecteur{
+.vmp, .mdi-vlc .lecteur{
     margin: 5px 20px;
     
 }
 
+.mdi-vlc{
+ color: rgb(241, 114, 23);}
+
+.mdi-database-plus{
+color: rgb(241, 114, 23);}
+
+
+.mdi-movie{
+    color: rgb(241, 114, 23);}
+.mdi-music{
+    color: rgb(241, 114, 23); 
+}
+.icons mdi{
+    color: rgb(241, 114, 23);
+}
 .symbols{
     display: flex;
     justify-content: right;
-    padding: 5px 30px;
-    background-color: #f1f1f1;
+    margin: 10px 20px;
+    color: black;
+    background-color: #f1f1f1;   
 }
 .menu, .menu-link{
     display: inline-block;
@@ -23,18 +39,9 @@
     background-color: #f1f1f1;
     
 }
-.boo{
-    overflow-y: scroll;
-}
-.play{
 
-}
 .play1, .mdi-view-headline{
     background-color: rgb(165, 204, 248);
-}
-
-    .Lib{
-    color:black;
 }
 
 .search{
@@ -47,4 +54,5 @@
     display: flex;
    justify-content: right;
    padding: 5px 600px;
+   background-color: #f1f1f1;
 }
