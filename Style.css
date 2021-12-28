@@ -21,9 +21,13 @@ color: rgb(241, 114, 23);}
 .mdi-music{
     color: rgb(241, 114, 23); 
 }
-.icons mdi{
+.mdi-chart-line-stacked{
+    color: rgb(241, 114, 23); 
+}
+.sidebar div :first-child{
     color: rgb(241, 114, 23);
 }
+
 .symbols{
     display: flex;
     justify-content: right;
@@ -36,11 +40,11 @@ color: rgb(241, 114, 23);}
     justify-content: center;
     margin: 3px 20px;
     color: black;
-    background-color: #f1f1f1;
-    
+    background-color: #f1f1f1;   
 }
 
-.play1, .mdi-view-headline{
+
+.play1 .mdi-view-headline{
     background-color: rgb(165, 204, 248);
 }
 
@@ -55,4 +59,10 @@ color: rgb(241, 114, 23);}
    justify-content: right;
    padding: 5px 600px;
    background-color: #f1f1f1;
+}
+.icons div span mdi {
+    color: rgb(241, 114, 23);
+}
+.side div span mdi-lan{
+    color: rgb(241, 114, 23);
 }
